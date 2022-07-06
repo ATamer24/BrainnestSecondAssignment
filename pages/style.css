@@ -244,3 +244,48 @@ a:active {
 }
 
 
+/* TeamSquad */
+.squadmain{
+    background-color: #1f2937;
+}
+.Squadtitle{
+ font-size: 30px;
+ font-family: "Roboto-bold",sans-serif;
+ color: rgb(229, 231, 235);
+ text-align: center;
+ 
+}
+.positiondiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.playerdiv{
+    border:2px solid #E5E7EB;
+}
+.playerdiv:hover{
+    transform: scale(1.2);
+}
+.positiontext{
+    text-align: center;
+    font-family: "Roboto-black",sans-serif;
+    font-size: 26px;
+    color: rgb(229, 231, 235);
+    margin-top: 100px;
+}
+.playerimage{
+    height: 300px;
+    width: auto;
+}
+
+
+.nn {
+    text-align: center;
+    font-family: "Roboto-black",sans-serif;
+    font-size: 16px;
+    color: rgb(229, 231, 235);
+}
+
