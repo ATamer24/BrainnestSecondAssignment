@@ -8,6 +8,11 @@
     src: url(../fonts/Roboto-LightItalic.ttf);
 }
 
+@font-face {
+    font-family: "Roboto-black";
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
 .section1{
     background-color: #1f2937;
 }
@@ -20,13 +25,11 @@
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 10px;
-    border: 1px solid red;
 }
 
 .navimage {
     height: 50px;
     width: auto;
-    border: 1px solid red;
 }
 .refDiv {
     display: flex;
@@ -34,9 +37,6 @@
     justify-content: space-between;
     padding-top: 30px;
     width: 150px;
-    background-color: transparent;
-    text-decoration: none;
-    border: 1px solid red;
 }
 a {
     color: rgb(249, 250, 248);
@@ -50,13 +50,20 @@ a:visited {
     text-decoration: none;
 }
   
-a:hover {
+a.navlinks:hover {
     text-decoration: underline;
+    transform: scale(2.0);
 }
-  
+
+a.logo:hover {
+    text-decoration: none;
+    transform: scale(1);
+}
+
 a:active {
     text-decoration: none;
 }
+
 
 .flex-container {
     display: flex;
@@ -66,12 +73,9 @@ a:active {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 80px;
-    border: 1px solid red;
 }
 
-.leftcontainer {
-    border: 1px solid red;
-}
+
 
 .section1Header {
     font-family: 'Roboto-bold',sans-serif;
@@ -79,15 +83,14 @@ a:active {
     color: rgb(249, 250, 248);
     width: 400px;
     height: 140px;
-    border: 1px solid red;
 }
 
 .section1text {
+    font-family: "Roboto-black",sans-serif;
     font-size: 18px;
     color: rgb(229, 231, 235);
     width: 500px;
     height: 60px;
-    border: 1px solid red;
 }
 
 .button {
@@ -106,22 +109,16 @@ a:active {
     border-color: transparent;
     border-image: initial;
     padding: 0.375rem 0.75rem;
-    border-radius: 0.35rem;
+    border-radius: 0.5rem;
 }
 
-.image1-container {
-    border-width: 1px;
-    border: 1px solid red;
-}
 
 .image1 {
     width: 450px;
     height: auto;
-    border: 1px solid red;
 }
 
 .section2{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
 }
@@ -139,58 +136,111 @@ a:active {
     justify-content: space-between;
     height:250px ;
     width: 60%;
-    border: 1px solid red;
     margin-left: 20%;
     margin-bottom: 10px;
 }
+
 .sec2image{
     border: 4px solid #3882f6 ;
     border-radius: 10px;
-    width: 125px;
-    height: 130px;
+    width: 135px;
+    height: 150px;
 }
+
 .sec2text{
-    border: 1px solid red;
     font-size: 15px;
     text-align: center;
     color: #787878;
 }
 
 .singleimage{
-    border: 1px solid red;
     margin: 20px;  
 }
+.singleimage:hover{
+    transform: scale(1.5);
+}
+
 
 .section3{
     background-color: #E5E7EB;
-    border: 1px solid red;
 }
 
 .sec3subdiv{   
     display: flex;
     flex-direction: row; 
-    margin:20%;
-    margin-top:0px;
-    margin-bottom: 0px;
-    padding: 10px;
+    justify-content: center;
     color: #1f2937;
-    border: 1px solid red;
+    padding-top: 80px;
+    padding-bottom:80px ;
 }
 .sec3text{
     font-size: 36px;
     font-family: "Roboto-italic",sans-serif;
     width: 800px;
     height: 150px;
-    border: 1px solid red;
 }
 
 .sec3author{
-    width: 80px;
-    height: 80px;
-    margin-top: 4%;
-    font-size:20px;
-    padding-top: 10%;
     font-family: "Roboto-bold",sans-serif;
-    border: 1px solid red;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.section4sub{
+    width: 40%; 
+    height: 150px;
+    background-color: #3882f6;
+    border-radius:  8px; ;
+    margin: 100px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right:10%;
+}
+
+.sec4left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec4right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec4text{
+    font-family: "Roboto-bold",sans-serif;
+    font-size: 22px;
+}
+.sec4text2{
+    font-size: 16px;
+    font-family: "Roboto-black",sans-serif;
+}
+.sec4Button{
+    border: 2px solid #E5E7EB;
+}
+
+.footer{
+    background-color: #1f2937;
+}
+
+.footertext{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size:10px ;
+    display:flex;
+    justify-content: center;
+    color: #E5E7EB;
+    font-family: "Roboto-black",sans-serif;
+}
+
+
