@@ -12,6 +12,10 @@
     font-family: "Roboto-black";
     src: url(../fonts/Roboto-Light.ttf);
 }
+@font-face {
+    font-family: "Roboto-bitalic";
+    src: url(../fonts/Roboto-BoldItalic.ttf);
+}
 
 .section1{
     background-color: #1f2937;
@@ -30,7 +34,6 @@
 .navimage {
     height: 50px;
     width: auto;
-    filter: opacity(1) drop-shadow(0 0 0 white);
 }
 .refDiv {
     display: flex;
@@ -272,13 +275,13 @@ a:active {
 }
 .playerdiv:hover{
     transform: scale(1.3);
-    border-color:#3882f6 ;
+    border: 5px solid rgba(229, 231, 235, .5);
 }
 .positiontext{
     text-align: center;
-    font-family: "Roboto-black",sans-serif;
-    font-size: 26px;
-    color: #E5E7EB;
+    font-family: "Roboto-bold",sans-serif;
+    font-size: 30px;
+    color: rgb(229, 231, 235);
     margin-top: 100px;
 }
 .playerimage{
@@ -287,14 +290,21 @@ a:active {
     border-bottom: 2px solid #E5E7EB;
 }
 
-
-.nn {
+.cname{
+    font-family: "Roboto-bitalic",sans-serif;
     text-align: center;
-    font-family: "Roboto-bold",sans-serif;
     font-size: 16px;
     color:#E5E7EB ;
     padding-left: 1%;
 }
+.nn {
+    text-align: center;
+    font-family: "Roboto-bold",sans-serif;
+    font-size: 20px;
+    color:#E5E7EB ;
+    padding-left: 1%;
+}
+
 .playerinfo{
     display: flex;
     flex-direction: column;
@@ -310,4 +320,5 @@ a:active {
     flex-direction: row;
     justify-content: center;
 }
+
 
