@@ -256,7 +256,8 @@ a:active {
  
 }
 .positiondiv{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     flex-direction: row;
     justify-content: space-between;
     padding-left: 3%;
@@ -265,6 +266,7 @@ a:active {
 
 .playerdiv{
     border:2px solid #E5E7EB;
+    margin-bottom: 5px;
 }
 .playerdiv:hover{
     transform: scale(1.2);
