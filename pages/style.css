@@ -5,7 +5,7 @@
 
 @font-face {
     font-family:"Roboto-italic" ;
-    src: url(../fonts/Roboto-LightItalic.ttf);
+    src: url(../fonts/Roboto-Thin.ttf);
 }
 
 @font-face {
@@ -15,6 +15,11 @@
 @font-face {
     font-family: "Roboto-bitalic";
     src: url(../fonts/Roboto-BoldItalic.ttf);
+}
+
+:root{
+    --primarycolor:#1f2937;
+    --secondarycolor:
 }
 
 .section1{
@@ -43,7 +48,7 @@
     width: 150px;
 }
 a {
-    color: rgb(249, 250, 248);
+    color: #f9faf8;
 }
 
 a:link {
@@ -179,7 +184,7 @@ a:active {
 }
 .sec3text{
     font-size: 36px;
-    font-family: "Roboto-italic",sans-serif;
+    font-family: "Roboto-black",sans-serif;
     width: 800px;
     height: 150px;
 }
@@ -312,3 +317,19 @@ a:active {
 
 
 /* Shop */
+.ads{
+    width: 100%;
+    border: 2px solid red;
+}
+.banner{
+    width: 100%;
+}
+a.banner:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
